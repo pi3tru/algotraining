@@ -1,0 +1,15 @@
+plugins {
+    id 'groovy'
+    id 'java'
+}
+
+group 'io.pi3.stst.algotraining'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile "org.spockframework:spock-core:1.1-groovy-2.4-rc-2"
+}
